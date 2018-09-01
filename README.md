@@ -1,4 +1,4 @@
-# SSM\_LinearArray
+# Forked from SSM\_LinearArray
 
 ##Video showing SSM\_LinearArray :
 
