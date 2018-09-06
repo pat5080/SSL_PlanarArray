@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="SSM_LinearArray" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\usr\local\share\OpenCV\;CMake Files\..\..\..\Pangolin\;CMake Files\..\..\..\Pangolin\build\;CMake Files\..\..\..\Pangolin\build\src\;CMake Files\cmake_modules\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/pat5/catkin_ws/src/SSL_PlanarArray/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/pat5/catkin_ws/src/SSL_PlanarArray/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/pat5/catkin_ws/src/SSL_PlanarArray/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/pat5/catkin_ws/src/SSL_PlanarArray/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/pat5/catkin_ws/src/SSL_PlanarArray/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="SSM_LinearArray">
+         <Option output="/home/pat5/catkin_ws/src/SSL_PlanarArray/lib/libSSM_LinearArray.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/pat5/catkin_ws/src/SSL_PlanarArray/build" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DCOMPILEDWITHC11" />
+            <Add directory="/home/pat5/Pangolin/build/src/include" />
+            <Add directory="/home/pat5/Pangolin/include" />
+            <Add directory="/home/pat5/catkin_ws/src/SSL_PlanarArray" />
+            <Add directory="/home/pat5/catkin_ws/src/SSL_PlanarArray/include" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/suitesparse" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/pat5/catkin_ws/src/SSL_PlanarArray/build/Makefile&quot;  VERBOSE=1 SSM_LinearArray" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/pat5/catkin_ws/src/SSL_PlanarArray/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/pat5/catkin_ws/src/SSL_PlanarArray/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/pat5/catkin_ws/src/SSL_PlanarArray/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="SSM_LinearArray/fast">
+         <Option output="/home/pat5/catkin_ws/src/SSL_PlanarArray/lib/libSSM_LinearArray.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/pat5/catkin_ws/src/SSL_PlanarArray/build" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DCOMPILEDWITHC11" />
+            <Add directory="/home/pat5/Pangolin/build/src/include" />
+            <Add directory="/home/pat5/Pangolin/include" />
+            <Add directory="/home/pat5/catkin_ws/src/SSL_PlanarArray" />
+            <Add directory="/home/pat5/catkin_ws/src/SSL_PlanarArray/include" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/suitesparse" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/pat5/catkin_ws/src/SSL_PlanarArray/build/Makefile&quot;  VERBOSE=1 SSM_LinearArray/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/pat5/catkin_ws/src/SSL_PlanarArray/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/pat5/catkin_ws/src/SSL_PlanarArray/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/pat5/catkin_ws/src/SSL_PlanarArray/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="csparse_extension">
+         <Option output="/home/pat5/catkin_ws/src/SSL_PlanarArray/lib/libcsparse_extension.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/pat5/catkin_ws/src/SSL_PlanarArray/build" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DCOMPILEDWITHC11" />
+            <Add directory="/home/pat5/Pangolin/build/src/include" />
+            <Add directory="/home/pat5/Pangolin/include" />
+            <Add directory="/home/pat5/catkin_ws/src/SSL_PlanarArray" />
+            <Add directory="/home/pat5/catkin_ws/src/SSL_PlanarArray/include" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/suitesparse" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/pat5/catkin_ws/src/SSL_PlanarArray/build/Makefile&quot;  VERBOSE=1 csparse_extension" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/pat5/catkin_ws/src/SSL_PlanarArray/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/pat5/catkin_ws/src/SSL_PlanarArray/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/pat5/catkin_ws/src/SSL_PlanarArray/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="csparse_extension/fast">
+         <Option output="/home/pat5/catkin_ws/src/SSL_PlanarArray/lib/libcsparse_extension.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/pat5/catkin_ws/src/SSL_PlanarArray/build" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DCOMPILEDWITHC11" />
+            <Add directory="/home/pat5/Pangolin/build/src/include" />
+            <Add directory="/home/pat5/Pangolin/include" />
+            <Add directory="/home/pat5/catkin_ws/src/SSL_PlanarArray" />
+            <Add directory="/home/pat5/catkin_ws/src/SSL_PlanarArray/include" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/suitesparse" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/pat5/catkin_ws/src/SSL_PlanarArray/build/Makefile&quot;  VERBOSE=1 csparse_extension/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/pat5/catkin_ws/src/SSL_PlanarArray/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/pat5/catkin_ws/src/SSL_PlanarArray/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/pat5/catkin_ws/src/SSL_PlanarArray/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/pat5/catkin_ws/src/SSL_PlanarArray/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/pat5/catkin_ws/src/SSL_PlanarArray/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/pat5/catkin_ws/src/SSL_PlanarArray/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/pat5/catkin_ws/src/SSL_PlanarArray/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/pat5/catkin_ws/src/SSL_PlanarArray/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/pat5/catkin_ws/src/SSL_PlanarArray/Thirdparty/g2o/g2o/solvers/csparse_helper.cpp">
+      </Unit>
+      <Unit filename="/home/pat5/catkin_ws/src/SSL_PlanarArray/src/Converter.cc">
+      </Unit>
+      <Unit filename="/home/pat5/catkin_ws/src/SSL_PlanarArray/src/DOA_handler.cc">
+      </Unit>
+      <Unit filename="/home/pat5/catkin_ws/src/SSL_PlanarArray/src/Frame.cc">
+      </Unit>
+      <Unit filename="/home/pat5/catkin_ws/src/SSL_PlanarArray/src/FrameDrawer.cc">
+      </Unit>
+      <Unit filename="/home/pat5/catkin_ws/src/SSL_PlanarArray/src/Initializer.cc">
+      </Unit>
+      <Unit filename="/home/pat5/catkin_ws/src/SSL_PlanarArray/src/KeyFrame.cc">
+      </Unit>
+      <Unit filename="/home/pat5/catkin_ws/src/SSL_PlanarArray/src/KeyFrameDatabase.cc">
+      </Unit>
+      <Unit filename="/home/pat5/catkin_ws/src/SSL_PlanarArray/src/LocalMapping.cc">
+      </Unit>
+      <Unit filename="/home/pat5/catkin_ws/src/SSL_PlanarArray/src/LoopClosing.cc">
+      </Unit>
+      <Unit filename="/home/pat5/catkin_ws/src/SSL_PlanarArray/src/Map.cc">
+      </Unit>
+      <Unit filename="/home/pat5/catkin_ws/src/SSL_PlanarArray/src/MapDrawer.cc">
+      </Unit>
+      <Unit filename="/home/pat5/catkin_ws/src/SSL_PlanarArray/src/MapPoint.cc">
+      </Unit>
+      <Unit filename="/home/pat5/catkin_ws/src/SSL_PlanarArray/src/MultiHypoSSL.cc">
+      </Unit>
+      <Unit filename="/home/pat5/catkin_ws/src/SSL_PlanarArray/src/ORBextractor.cc">
+      </Unit>
+      <Unit filename="/home/pat5/catkin_ws/src/SSL_PlanarArray/src/ORBmatcher.cc">
+      </Unit>
+      <Unit filename="/home/pat5/catkin_ws/src/SSL_PlanarArray/src/Optimizer.cc">
+      </Unit>
+      <Unit filename="/home/pat5/catkin_ws/src/SSL_PlanarArray/src/PnPsolver.cc">
+      </Unit>
+      <Unit filename="/home/pat5/catkin_ws/src/SSL_PlanarArray/src/SSDataAssociation.cc">
+      </Unit>
+      <Unit filename="/home/pat5/catkin_ws/src/SSL_PlanarArray/src/Sim3Solver.cc">
+      </Unit>
+      <Unit filename="/home/pat5/catkin_ws/src/SSL_PlanarArray/src/SoundSource.cc">
+      </Unit>
+      <Unit filename="/home/pat5/catkin_ws/src/SSL_PlanarArray/src/System.cc">
+      </Unit>
+      <Unit filename="/home/pat5/catkin_ws/src/SSL_PlanarArray/src/Tracking.cc">
+      </Unit>
+      <Unit filename="/home/pat5/catkin_ws/src/SSL_PlanarArray/src/Viewer.cc">
+      </Unit>
+      <Unit filename="/home/pat5/catkin_ws/src/SSL_PlanarArray/Thirdparty/g2o/g2o/solvers/csparse_helper.h">
+      </Unit>
+      <Unit filename="/home/pat5/catkin_ws/src/SSL_PlanarArray/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/pat5/catkin_ws/src/SSL_PlanarArray/../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/pat5/catkin_ws/src/SSL_PlanarArray/../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/pat5/catkin_ws/src/SSL_PlanarArray/../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/pat5/catkin_ws/src/SSL_PlanarArray/../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/pat5/catkin_ws/src/SSL_PlanarArray/../../../Pangolin/build/src/PangolinConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Pangolin\build\src\" />
+      </Unit>
+      <Unit filename="/home/pat5/catkin_ws/src/SSL_PlanarArray/../../../Pangolin/build/src/PangolinConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Pangolin\build\src\" />
+      </Unit>
+      <Unit filename="/home/pat5/catkin_ws/src/SSL_PlanarArray/../../../Pangolin/build/src/PangolinTargets.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Pangolin\build\src\" />
+      </Unit>
+      <Unit filename="/home/pat5/catkin_ws/src/SSL_PlanarArray/cmake_modules/FindEigen3.cmake">
+          <Option virtualFolder="CMake Files\cmake_modules\" />
+      </Unit>
+      <Unit filename="/home/pat5/catkin_ws/src/SSL_PlanarArray/cmake_modules/FindCSparse.cmake">
+          <Option virtualFolder="CMake Files\cmake_modules\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

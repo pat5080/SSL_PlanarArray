@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/pat5/catkin_ws/src/SSL_PlanarArray/ROS/SSM_LinearArray/build/devel/setup.sh

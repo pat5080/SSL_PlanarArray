@@ -71,6 +71,10 @@ target_link_libraries(RGBD
 ${LIBS}
 )
 
+# Node for retrievedata class which subscribes to /HarkSource
+rosbuild_add_executable(HarkSource src/retrievedata.cpp)
+target_link_libraries(HarkSource)
+
 # Node for PS3 Eye DOA est.
 rosbuild_add_executable(ps3_srp_phat_fd src/ps3_srp_phat_fd.cpp)
 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC  -Wall   -O3 -march=native -std=c++11 -O3 -DNDEBUG  -shared -Wl,-soname,libcsparse_extension.so -o ../lib/libcsparse_extension.so CMakeFiles/csparse_extension.dir/Thirdparty/g2o/g2o/solvers/csparse_helper.cpp.o -lcxsparse 
